@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fiber</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+<div class="p-10 md:p-0 md:flex">
+  <div class="w-full md:w-1/2 md:p-10 lg:px-32 lg:py-10">
+    <h2 class="text-lg  pt-7.5 font-bold ">Fiber</h2>
+    <h1 class="text-4xl pb-5 font-bold lg:py-12">Create your Fiber account</h1>
+    <form>
+      <label for="name" >Your Name</label><br />
+      <input type="text" id="name" placeholder="John Toe" class="p-2 w-full border-solid border rounded my-2 lg:py-3"><br />
+      <label for="email">E-mail</label><br />
+      <input type="email" id="email" placeholder="john@example.com"  class="p-2 w-full border-solid  border rounded my-2 lg:py-3"><br />
+      <label for="pass">Password</label><br />
+      <input type="password" id="pass" placeholder="At least 8 characters"  class="p-2 w-full border-solid  border rounded my-2 lg:py-3"><br />
+      <div class="flex pt-4 pb-6">
+        <input type="checkbox" id="agree" class="mr-5">
+        <p class="text-lg">By creating an account on Fiber, you agree to the <a href="" class=" text-indigo-700 underline font-bold ">Terms & Conditions.</a></p>
+      </div>
+      <input type="submit" id="submit" value="Create Fiber Account" class="w-full text-neutral-50 bg-indigo-700 rounded py-4 text-lg font-bold">
+      <p class="justify-center text-center text-lg py-4"><label for="submit">Already have an account? <a href="" class="text-indigo-700">Sign in</a></label></p>
+    </form>
+  </div>
+  <div class="hidden md:block md:w-1/2 h-100 bg-indigo-700 lg:px-20 pt-20 ">
+    <img src="Assets/Sign%20Up%20Image.png" alt="sign up image" class="w-full p-8">
+    <div class="px-14">
+      <h1 class="w-full text-4xl text-white justify-center text-center p">Unparalleled Templates</h1>
+      <p class="w-full text-lg text-white justify-center text-center pt-3">Crafted by team of professional designers, our templates are euparalleled in the market</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
